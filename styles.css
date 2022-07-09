@@ -1,0 +1,68 @@
+h1 {
+    color: darkred;
+    font-size: 30px;
+}
+
+
+body {
+    background-color: #c2a5a5;
+    color: black;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+
+.avatar {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 20px black;
+}
+
+
+.info p {
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+}
+
+
+
+
+
+
+/* Box Model */
+.guide {
+    /* background: gray; */
+
+    padding: 15px 40px;
+
+    /* padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px; */
+
+    /* Также можно сделать и с маржином */
+    margin: 20px;
+
+    border: 5px solid darkred;
+    
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+/* .box-model > div {
+    float: left;
+    background: black;
+    height: 200px;
+    border: 4px solid darkred;
+    width: 25%;
+    box-sizing: border-box;
+
+} */
+
